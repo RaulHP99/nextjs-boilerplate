@@ -2,28 +2,20 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="p-6 max-w-4xl mx-auto font-sans">
+    <main className="min-h-screen p-6 max-w-4xl mx-auto font-sans bg-gradient-to-b from-white via-zinc-50 to-white dark:from-zinc-900 dark:via-zinc-800 dark:to-zinc-900">
 
-      {/* Page title */}
       <h1 className="text-4xl font-bold mb-8 text-center">iOS Development</h1>
 
-      {/* ═══ 1. INTRODUCTION ─ text left / image right ─════════ */}
-      <section
-        id="intro"
-        className="flex flex-col md:flex-row md:items-center gap-8 my-12"
-      >
-        {/* text */}
+      <section id="intro" className="flex flex-col md:flex-row md:items-center gap-8 my-12">
         <div className="md:w-1/2">
           <h2 className="text-2xl font-semibold mb-2">🙋🏽‍♂️ Introduction</h2>
           <p className="mb-6 text-lg">
-            Hello, I’m Raul Perez. This site is my Intro to Computer Science
-            project, and I chose iOS Development because I’m passionate about
-            building apps for Apple devices and hope to turn that passion into a
-            career.
+            Hello, I’m Raul Perez. This site is my Intro to Computer Science project,
+            and I chose iOS Development because I’m passionate about building apps
+            for Apple devices and hope to turn that passion into a career.
           </p>
         </div>
 
-        {/* image */}
         <figure className="md:w-1/2">
           <Image
             src="/intro.jpg"
@@ -38,12 +30,7 @@ export default function Home() {
         </figure>
       </section>
 
-      {/* ═══ 2. WHY I CHOSE THIS TOPIC ─ image left / text right ─════════ */}
-      <section
-        id="why"
-        className="flex flex-col md:flex-row-reverse md:items-center gap-8 my-12"
-      >
-        {/* text */}
+      <section id="why" className="flex flex-col md:flex-row-reverse md:items-center gap-8 my-12">
         <div className="md:w-1/2">
           <h2 className="text-2xl font-semibold mb-2">👨🏽‍💻 Why I Chose This Topic</h2>
           <p className="mb-4">
@@ -54,7 +41,6 @@ export default function Home() {
           </p>
         </div>
 
-        {/* image */}
         <figure className="md:w-1/2">
           <Image
             src="/why.jpg"
@@ -69,22 +55,17 @@ export default function Home() {
         </figure>
       </section>
 
-      {/* ═══ 3. WHAT IS IOS DEVELOPMENT? ─ text left / image right ─════════ */}
-      <section
-        id="what"
-        className="flex flex-col md:flex-row md:items-center gap-8 my-12"
-      >
-        {/* text */}
+      <section id="what" className="flex flex-col md:flex-row md:items-center gap-8 my-12">
         <div className="md:w-1/2">
           <h2 className="text-2xl font-semibold mb-2">📱 What is iOS Development?</h2>
           <p className="mb-4">
-            iOS development means creating apps for iPhone and iPad. Developers
-            write Swift code, build user interfaces, test on simulators or real
-            devices, and publish the finished app to the App Store.
+            iOS development is the process of creating software for Apple’s mobile
+            devices—iPhone and iPad. Developers write Swift code, build user
+            interfaces, test on simulators or real devices, and publish the finished
+            app to the App Store.
           </p>
         </div>
 
-        {/* image */}
         <figure className="md:w-1/2">
           <Image
             src="/what.jpg"
@@ -99,12 +80,7 @@ export default function Home() {
         </figure>
       </section>
 
-      {/* ═══ 4. TOOLS ─ image left / text right ─════════ */}
-      <section
-        id="tools"
-        className="flex flex-col md:flex-row-reverse md:items-center gap-8 my-12"
-      >
-        {/* text */}
+      <section id="tools" className="flex flex-col md:flex-row-reverse md:items-center gap-8 my-12">
         <div className="md:w-1/2">
           <h2 className="text-2xl font-semibold mb-2">🧰 Tools Developers Use</h2>
           <ul className="list-disc pl-6 mb-4">
@@ -114,7 +90,6 @@ export default function Home() {
           </ul>
         </div>
 
-        {/* image */}
         <figure className="md:w-1/2">
           <Image
             src="/tools.jpg"
@@ -129,26 +104,19 @@ export default function Home() {
         </figure>
       </section>
 
-      {/* ═══ 5. HOW APPS ARE MADE ─ text left / image right ─════════ */}
-      <section
-        id="how"
-        className="flex flex-col md:flex-row md:items-center gap-8 my-12"
-      >
-        {/* text */}
+      <section id="how" className="flex flex-col md:flex-row md:items-center gap-8 my-12">
         <div className="md:w-1/2">
           <h2 className="text-2xl font-semibold mb-2">⚙️ How iOS Apps Are Made</h2>
           <p className="mb-4">
-            Basic workflow: Idea → Plan & Sketch → Build in Xcode → Test on a
-            device → Polish visuals → Upload to App Store Connect → Apple
-            review → Release.
+            Basic workflow: Idea → Plan & Sketch → Build in Xcode → Test on a device →
+            Polish visuals → Upload to App Store Connect → Apple review → Release.
           </p>
         </div>
 
-        {/* image */}
         <figure className="md:w-1/2">
           <Image
             src="/lifecycle.jpg"
-            alt="Apple-style iOS app lifecycle timeline"
+            alt="Apple‑style iOS app lifecycle timeline"
             width={1000}
             height={500}
             className="rounded"
@@ -159,23 +127,16 @@ export default function Home() {
         </figure>
       </section>
 
-      {/* ═══ 6. IMPACT ─ image left / text right ─════════ */}
-      <section
-        id="impact"
-        className="flex flex-col md:flex-row-reverse md:items-center gap-8 my-12"
-      >
-        {/* text */}
+      <section id="impact" className="flex flex-col md:flex-row-reverse md:items-center gap-8 my-12">
         <div className="md:w-1/2">
           <h2 className="text-2xl font-semibold mb-2">🌍 Why iOS Development Matters</h2>
           <p className="mb-4">
-            iOS apps power health monitoring, safe navigation, and social
-            connection for millions. Developing quality apps requires
-            creativity, detail, and a passion for Apple’s ecosystem—skills I’m
-            excited to keep building.
+            iOS apps power health monitoring, navigation, and social connection for
+            millions. Developing quality apps requires creativity, detail, and a
+            passion for Apple’s ecosystem—skills I’m excited to keep building.
           </p>
         </div>
 
-        {/* image */}
         <figure className="md:w-1/2">
           <Image
             src="/impact.jpg"
@@ -185,12 +146,11 @@ export default function Home() {
             className="rounded"
           />
           <figcaption className="text-sm text-center mt-2 text-zinc-500">
-            Fig. 6 — iOS in action: health data, CarPlay maps, and social selfies.
+            Fig. 6 — iOS in action: health data, CarPlay maps, and selfies.
           </figcaption>
         </figure>
       </section>
 
-      {/* Footer */}
       <footer className="text-sm text-center mt-16 text-zinc-500">
         © 2025 Raul Perez – Intro to Computer Science Project
       </footer>

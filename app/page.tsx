@@ -17,7 +17,7 @@ export default function Home() {
           </p>
         </div>
         <figure className="md:w-1/2">
-          <Image src="/intro.jpg" alt="Raul working on iOS development" width={1000} height={500} className="rounded" />
+          <Image src="/intro.jpg" alt="Raul working on iOS development" width={1000} height={500} className="rounded-xl" />
           <figcaption className="text-sm text-center mt-2 text-zinc-500">An aspiring iOS developer at work</figcaption>
         </figure>
       </section>
@@ -33,7 +33,7 @@ export default function Home() {
           </p>
         </div>
         <figure className="md:w-1/2">
-          <Image src="/why.jpg" alt="Receiving my first iPod touch" width={1000} height={500} className="rounded" />
+          <Image src="/why.jpg" alt="Receiving my first iPod touch" width={1000} height={500} className="rounded-xl" />
           <figcaption className="text-sm text-center mt-2 text-zinc-500">The iPod that started it all</figcaption>
         </figure>
       </section>
@@ -47,7 +47,7 @@ export default function Home() {
           </p>
         </div>
         <figure className="md:w-1/2">
-          <Image src="/what.jpg" alt="Xcode and iPhone showing Hello World" width={1000} height={500} className="rounded" />
+          <Image src="/what.jpg" alt="Xcode and iPhone showing Hello World" width={1000} height={500} className="rounded-xl" />
           <figcaption className="text-sm text-center mt-2 text-zinc-500">Xcode Hello World demo</figcaption>
         </figure>
       </section>
@@ -62,7 +62,7 @@ export default function Home() {
           </ul>
         </div>
         <figure className="md:w-1/2">
-          <Image src="/tools.jpg" alt="Toolbox with Swift, Xcode, and SwiftUI icons" width={1000} height={500} className="rounded" />
+          <Image src="/tools.jpg" alt="Toolbox with Swift, Xcode, and SwiftUI icons" width={1000} height={500} className="rounded-xl" />
           <figcaption className="text-sm text-center mt-2 text-zinc-500">Essential developer tools</figcaption>
         </figure>
       </section>
@@ -75,7 +75,7 @@ export default function Home() {
           </p>
         </div>
         <figure className="md:w-1/2">
-          <Image src="/lifecycle.jpg" alt="iOS app lifecycle timeline" width={1000} height={500} className="rounded" />
+          <Image src="/lifecycle.jpg" alt="iOS app lifecycle timeline" width={1000} height={500} className="rounded-xl" />
           <figcaption className="text-sm text-center mt-2 text-zinc-500">Build and release process</figcaption>
         </figure>
       </section>
@@ -88,7 +88,7 @@ export default function Home() {
           </p>
         </div>
         <figure className="md:w-1/2">
-          <Image src="/impact.jpg" alt="iOS apps for health, navigation, and selfies" width={1000} height={500} className="rounded" />
+          <Image src="/impact.jpg" alt="iOS apps for health, navigation, and selfies" width={1000} height={500} className="rounded-xl" />
           <figcaption className="text-sm text-center mt-2 text-zinc-500">Apps in everyday life</figcaption>
         </figure>
       </section>

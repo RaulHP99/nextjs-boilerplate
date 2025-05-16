@@ -2,7 +2,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen p-6 max-w-4xl mx-auto font-sans bg-gradient-to-b from-white via-zinc-50 to-white dark:from-zinc-900 dark:via-zinc-800 dark:to-zinc-900">
+    <main className="relative min-h-screen p-6 max-w-4xl mx-auto font-sans bg-gradient-to-b from-white via-zinc-50 to-white dark:from-zinc-900 dark:via-zinc-800 dark:to-zinc-900">
+
+      <div className="pointer-events-none absolute inset-x-0 -top-32 h-80 -z-10 bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.07)_0%,transparent_70%)] dark:bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.08)_0%,transparent_70%)] blur-2xl" />
 
       <h1 className="text-4xl font-bold mb-8 text-center">iOS Development</h1>
 
